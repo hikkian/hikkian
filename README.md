@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Alisher Sharipov — AI / Full Stack developer">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/header-dark.svg">
+  <img src="https://raw.githubusercontent.com/hikkian/hikkian/output/header-light.svg" width="100%" alt="Alisher Sharipov — AI / Full Stack developer">
 </picture>
 
 <a href="https://linkedin.com/in/hikkian"><img src="https://img.shields.io/badge/LinkedIn-hikkian-14232E?style=for-the-badge&logo=linkedin&logoColor=F2EBDD&labelColor=E8643C" alt="LinkedIn"></a>
@@ -11,8 +11,8 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/title-about-dark.svg">
-  <img src="assets/title-about-light.svg" width="100%" alt="About me">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/title-about-dark.svg">
+  <img src="https://raw.githubusercontent.com/hikkian/hikkian/output/title-about-light.svg" width="100%" alt="About me">
 </picture>
 
 I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go and Python**. Lately I build tools for running AI locally and for working with several AI agents at once.
@@ -24,20 +24,20 @@ I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go and Py
 - 🗣️ Kazakh and Russian (native), English (B2)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/title-projects-dark.svg">
-  <img src="assets/title-projects-light.svg" width="100%" alt="Featured projects">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/title-projects-dark.svg">
+  <img src="https://raw.githubusercontent.com/hikkian/hikkian/output/title-projects-light.svg" width="100%" alt="Featured projects">
 </picture>
 
 <p align="center">
-  <a href="https://github.com/hikkian/shura"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shura-dark.svg"><img src="assets/card-shura-light.svg" width="49%" alt="Shura"></picture></a>
-  <a href="https://github.com/hikkian/barid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-barid-dark.svg"><img src="assets/card-barid-light.svg" width="49%" alt="Barid"></picture></a>
-  <a href="https://github.com/hikkian/shuracode"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shuracode-dark.svg"><img src="assets/card-shuracode-light.svg" width="49%" alt="ShuraCode"></picture></a>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-now-dark.svg"><img src="assets/card-now-light.svg" width="49%" alt="Right now"></picture>
+  <a href="https://github.com/hikkian/shura"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/card-shura-dark.svg"><img src="https://raw.githubusercontent.com/hikkian/hikkian/output/card-shura-light.svg" width="49%" alt="Shura"></picture></a>
+  <a href="https://github.com/hikkian/barid"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/card-barid-dark.svg"><img src="https://raw.githubusercontent.com/hikkian/hikkian/output/card-barid-light.svg" width="49%" alt="Barid"></picture></a>
+  <a href="https://github.com/hikkian/shuracode"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/card-shuracode-dark.svg"><img src="https://raw.githubusercontent.com/hikkian/hikkian/output/card-shuracode-light.svg" width="49%" alt="ShuraCode"></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/card-now-dark.svg"><img src="https://raw.githubusercontent.com/hikkian/hikkian/output/card-now-light.svg" width="49%" alt="Right now"></picture>
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/title-stack-dark.svg">
-  <img src="assets/title-stack-light.svg" width="100%" alt="Tech stack">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/title-stack-dark.svg">
+  <img src="https://raw.githubusercontent.com/hikkian/hikkian/output/title-stack-light.svg" width="100%" alt="Tech stack">
 </picture>
 
 <p align="center">
@@ -50,8 +50,8 @@ I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go and Py
 <p align="center"><b>AI / LLM:</b> <code>llama.cpp</code> · <code>local inference</code> · <code>RAG</code> · <code>Qdrant</code> · <code>Gemini API</code> · <code>Claude Code</code> · <code>Codex</code></p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/title-activity-dark.svg">
-  <img src="assets/title-activity-light.svg" width="100%" alt="Commit history">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/title-activity-dark.svg">
+  <img src="https://raw.githubusercontent.com/hikkian/hikkian/output/title-activity-light.svg" width="100%" alt="Commit history">
 </picture>
 
 <picture>
@@ -60,6 +60,6 @@ I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go and Py
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img src="assets/footer-light.svg" width="100%" alt="">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/footer-dark.svg">
+  <img src="https://raw.githubusercontent.com/hikkian/hikkian/output/footer-light.svg" width="100%" alt="">
 </picture>

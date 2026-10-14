@@ -1,0 +1,59 @@
+# Тексты картинок профиля. Поменяй текст в кавычках, нажми "Commit changes" —
+# через 1–2 минуты GitHub сам перерисует картинки (правила: .github/EDITING.md).
+# Только латиница: кириллицы в шрифте нет.
+
+[header]
+name = "Alisher Sharipov"
+title = "AI / Full Stack developer"
+# фразы, которые по очереди печатаются под заголовком
+phrases = [
+  "building open-source projects",
+  "local LLMs on consumer GPUs",
+  "orchestrating AI agent sessions",
+  "Go · Python · C++",
+]
+
+# Карточки проектов. file — имя картинки (card-<file>-light.svg), его не меняй,
+# иначе надо поменять и README.md. text — до 3 строк, tags — 2–3 коротких.
+[[cards]]
+file = "shura"
+mark = "S"
+title = "Shura"
+status = "pre-1.0 · MIT"
+text = "Fully local AI coding workstation: a 35B MoE model at 200k context on a single 12 GB GPU, without slowing your desktop."
+tags = ["llama.cpp", "MoE expert cache", "VRAM valve"]
+footer = "Python · Shell"
+
+[[cards]]
+file = "barid"
+mark = "B"
+title = "Barid"
+status = "v1.0.2 · MIT"
+text = "A prompt relay board for people who run several AI agent sessions: order, dependencies, shared resources, file conflicts."
+tags = ["agent skill", "zero-dependency", "browser panel"]
+footer = "Python · Linux · macOS · Windows"
+
+[[cards]]
+file = "shuracode"
+mark = "SC"
+title = "ShuraCode"
+status = "MIT"
+text = "Private, local AI coding agent for the terminal, with a memory that lasts across sessions. Built on OpenCode."
+tags = ["terminal", "local-first", "memory"]
+footer = "Python · TypeScript"
+
+# Карточка "Right now": 3 коротких пункта
+[now]
+title = "Right now"
+items = [
+  { head = "Shura", text = "taking it to 1.0, next stop: AMD Radeon via Vulkan" },
+  { head = "Barid", text = "1.0 is out; small releases from user feedback" },
+  { head = "Based in", text = "Astana, Kazakhstan (UTC+5)" },
+]
+
+# Заголовки разделов
+[titles]
+about = "About me"
+projects = "Featured projects"
+stack = "Tech stack"
+activity = "Commit history"
