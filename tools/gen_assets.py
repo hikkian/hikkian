@@ -218,7 +218,7 @@ class Painter:
 
     def card(self, theme, c):
         t = THEMES[theme]
-        W, H = 440, 230
+        W, H = 440, 262
         mark = c.get("mark") or c["title"][:1]
         out = [f'<defs><clipPath id="c"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="18"/></clipPath></defs>',
                f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="18" fill="{t["card"]}"/>',
@@ -243,16 +243,19 @@ class Painter:
             out.append(p)
             x += w + 8
         if c.get("footer"):
-            out.append(self.mono5.path(c["footer"], W - 26, 214, 11.5, t["muted"], anchor="end"))
+            # its own row under a thin rule, so it never sits against the tags
+            out.append(f'<path d="M26 {H - 46} H{W - 26}" stroke="{t["border"]}" stroke-width="1.2"/>')
+            out.append(f'<circle cx="32" cy="{H - 23}" r="5" fill="{t["accent"]}"/>')
+            out.append(self.mono5.path(c["footer"], 46, H - 18.5, 13, t["muted"]))
         self.save(f"card-{c['file']}-{theme}.svg", svg(W, H, f"{c['title']}: {c['text']}", out))
 
     def now(self, theme, n):
         t = THEMES[theme]
-        W, H = 440, 230
+        W, H = 440, 262
         out = [f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="18" fill="{t["card"]}" stroke="{t["border"]}" stroke-width="1.5" stroke-dasharray="6 6"/>',
                f'<circle cx="38" cy="50" r="7" fill="{t["accent"]}"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>',
                self.inter8.path(n["title"], 56, 59, 25, t["ink"])]
-        y = 102
+        y = 110
         for item in n["items"]:
             out.append(f'<circle cx="34" cy="{y - 5}" r="3.5" fill="{t["accent"]}"/>')
             out.append(self.inter8.path(item["head"], 48, y, 16, t["ink"]))
@@ -261,7 +264,7 @@ class Painter:
             for i, line in enumerate(lines):
                 out.append(self.inter5.path(line, 56 + hw if i == 0 else 48, y + i * 21, 15, t["sub"]))
             last = y + 21 * (len(lines) - 1)
-            y += 21 * len(lines) + 20
+            y += 21 * len(lines) + 27
         if last > H - 14:
             WARNINGS.append("now: too many lines, the last ones fall off the card (keep it to three short items)")
         label = n["title"] + ": " + "; ".join(f"{i['head']} {i['text']}" for i in n["items"])
