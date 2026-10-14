@@ -6,6 +6,7 @@ The GitHub Action runs this on every change of content.toml; to run it by hand:
     pip install fonttools uharfbuzz
     python tools/gen_assets.py content.toml out/
 """
+import base64
 import html
 import io
 import sys
@@ -35,6 +36,7 @@ THEMES = {
                  accent="#E8643C", line="#2B3F4D", node="#33495A", logo_bg="#F2EBDD", logo_fg="#14232E", grid="#16242E",
                  pill="#1B2E3B"),
 }
+SEALS = Path(__file__).resolve().parent  # seal-light.jpg, seal-dark.jpg: the avatar's seal (the same picture in both themes now)
 
 WARNINGS = []
 
@@ -115,6 +117,20 @@ def wrap(face, text, size, width, max_lines, where):
 def svg(w, h, label, body):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
             f'aria-label="{html.escape(label, quote=True)}">' + "".join(body) + "</svg>")
+
+
+def seal(x, y, size, t, theme):
+    """The avatar's seal in a circle, with a thin ring that turns slowly; the "h" logo if the picture is missing."""
+    f = SEALS / f"seal-{theme}.jpg"
+    if not f.exists():
+        return logo(x, y, size, t)
+    data = base64.b64encode(f.read_bytes()).decode()
+    cx, cy, r = x + size / 2, y + size / 2, size / 2 + 6
+    return (f'<defs><clipPath id="seal"><circle cx="{cx}" cy="{cy}" r="{r}"/></clipPath></defs>'
+            f'<image href="data:image/jpeg;base64,{data}" x="{x - 6}" y="{y - 6}" width="{size + 12}" height="{size + 12}" clip-path="url(#seal)"/>'
+            f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{t["accent"]}" stroke-width="2.5"/>'
+            f'<circle cx="{cx}" cy="{cy}" r="{r + 9}" fill="none" stroke="{t["accent"]}" stroke-width="1.5" stroke-dasharray="3 9" opacity="0.8">'
+            f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="60s" repeatCount="indefinite"/></circle>')
 
 
 def logo(x, y, size, t):
@@ -203,7 +219,7 @@ class Painter:
             graph(left, [0, 1, 2, 3, 4], {1}, t, "l"),
             graph(right, [0, 1, 3, 2, 4], {1}, t, "r"),
             f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.1s" fill="freeze"/>',
-            logo(x0, 115, 150, t),
+            seal(x0, 115, 150, t, theme),
             self.inter8.path(h["name"], tx, 172, 66, t["ink"]),
             self.inter6.path(h["title"], tx, 220, 30, t["sub"]),
             "</g>",
