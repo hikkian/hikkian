@@ -1,0 +1,35 @@
+name: snake
+
+# Redraws the contribution snake once a day in the profile's colours and publishes it to the `output` branch.
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?palette=github-light&color_snake=#E8643C&color_dots=#EBE4D6,#F5CDB9,#F0A27F,#E8643C,#A8401F
+            dist/snake-dark.svg?palette=github-dark&color_snake=#E8643C&color_dots=#16242E,#4A2A1F,#7E3A22,#C4502C,#F08A63
+
+      - name: Publish to the output branch
+        run: |
+          cd dist
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -q -m "snake"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output

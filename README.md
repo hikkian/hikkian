@@ -1,18 +1,65 @@
-# 💫 About Me:
-I am a Backend Developer from Kazakhstan<br><br>My interests include:<br><br>Free and Open-Source Software<br><br>Web Development
+<div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Alisher Sharipov — AI / Full Stack developer">
+</picture>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/hikkian) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:alishar2005@gmail.com) 
+<a href="https://linkedin.com/in/hikkian"><img src="https://img.shields.io/badge/LinkedIn-hikkian-14232E?style=for-the-badge&logo=linkedin&logoColor=F2EBDD&labelColor=E8643C" alt="LinkedIn"></a>
+<a href="mailto:alishar2005@gmail.com"><img src="https://img.shields.io/badge/Email-alishar2005%40gmail.com-14232E?style=for-the-badge&logo=gmail&logoColor=F2EBDD&labelColor=E8643C" alt="Email"></a>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=hikkian&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=hikkian&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=hikkian&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+</div>
 
----
-[![](https://komarev.com/ghpvc/?username=hikkian&icon=0&color=0)](https://visitcount.itsvg.in)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-about-dark.svg">
+  <img src="assets/title-about-light.svg" width="100%" alt="About me">
+</picture>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go, Python and TypeScript**. Lately I build tools for running AI locally and for working with several AI agents at once.
+
+- 🖥️ **[Shura](https://github.com/hikkian/shura)**: a 35B coding model on one 12 GB gaming GPU, fully offline, tuned so the desktop stays smooth
+- 📮 **[Barid](https://github.com/hikkian/barid)**: a relay board that keeps several AI agent sessions in order, released as 1.0
+- ⚙️ Backend work: REST APIs, Strapi, FastAPI, PostgreSQL, JWT / OAuth 2.0, Docker, Nginx
+- 🏅 Bronze at the International Eurasian Olympiad in Informatics and at the Kazakhstan National Olympiad in Informatics
+- 🗣️ Kazakh and Russian (native), English (B2)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-projects-dark.svg">
+  <img src="assets/title-projects-light.svg" width="100%" alt="Featured projects">
+</picture>
+
+<p align="center">
+  <a href="https://github.com/hikkian/shura"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shura-dark.svg"><img src="assets/card-shura-light.svg" width="49%" alt="Shura"></picture></a>
+  <a href="https://github.com/hikkian/barid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-barid-dark.svg"><img src="assets/card-barid-light.svg" width="49%" alt="Barid"></picture></a>
+  <a href="https://github.com/hikkian/shuracode"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shuracode-dark.svg"><img src="assets/card-shuracode-light.svg" width="49%" alt="ShuraCode"></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-now-dark.svg"><img src="assets/card-now-light.svg" width="49%" alt="Right now"></picture>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-stack-dark.svg">
+  <img src="assets/title-stack-light.svg" width="100%" alt="Tech stack">
+</picture>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go%2Cpy%2Cts%2Cjs%2Ccpp%2Cnodejs%2Creact%2Cfastapi%2Cpostgres%2Cdocker%2Cnginx%2Clinux%2Cbash%2Cgit%2Cgithubactions&theme=dark&perline=15">
+    <img src="https://skillicons.dev/icons?i=go%2Cpy%2Cts%2Cjs%2Ccpp%2Cnodejs%2Creact%2Cfastapi%2Cpostgres%2Cdocker%2Cnginx%2Clinux%2Cbash%2Cgit%2Cgithubactions&theme=light&perline=15" width="100%" alt="Go, Python, TypeScript, JavaScript, C++, Node.js, React, FastAPI, PostgreSQL, Docker, Nginx, Linux, Bash, Git, GitHub Actions">
+  </picture>
+</p>
+
+<p align="center"><b>AI / LLM:</b> <code>llama.cpp</code> · <code>local inference</code> · <code>RAG</code> · <code>Qdrant</code> · <code>Gemini API</code> · <code>Claude Code</code> · <code>Codex</code></p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-activity-dark.svg">
+  <img src="assets/title-activity-light.svg" width="100%" alt="Contribution activity">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/hikkian/hikkian/output/snake-light.svg" width="100%" alt="Contribution graph eaten by a snake">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img src="assets/footer-light.svg" width="100%" alt="">
+</picture>
