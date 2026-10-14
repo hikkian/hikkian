@@ -51,7 +51,7 @@ I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go, Pytho
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/title-activity-dark.svg">
-  <img src="assets/title-activity-light.svg" width="100%" alt="Contribution activity">
+  <img src="assets/title-activity-light.svg" width="100%" alt="Commit history">
 </picture>
 
 <picture>

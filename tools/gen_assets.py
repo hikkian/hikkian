@@ -277,6 +277,6 @@ for th in THEMES:
          ["terminal", "local-first", "memory"], "Python · TypeScript")
     now_card(th)
     footer(th)
-    for slug, text in (("projects", "Featured projects"), ("stack", "Tech stack"), ("activity", "Contribution activity"), ("about", "About me")):
+    for slug, text in (("projects", "Featured projects"), ("stack", "Tech stack"), ("activity", "Commit history"), ("about", "About me")):
         section(text, th, slug)
 print("ok", sorted(p.name for p in OUT.iterdir()))
