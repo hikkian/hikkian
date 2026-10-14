@@ -15,11 +15,11 @@
   <img src="assets/title-about-light.svg" width="100%" alt="About me">
 </picture>
 
-I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go, Python and TypeScript**. Lately I build tools for running AI locally and for working with several AI agents at once.
+I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go and Python**. Lately I build tools for running AI locally and for working with several AI agents at once.
 
 - 🖥️ **[Shura](https://github.com/hikkian/shura)**: a 35B coding model on one 12 GB gaming GPU, fully offline, tuned so the desktop stays smooth
 - 📮 **[Barid](https://github.com/hikkian/barid)**: a relay board that keeps several AI agent sessions in order, released as 1.0
-- ⚙️ Backend work: REST APIs, Strapi, FastAPI, PostgreSQL, JWT / OAuth 2.0, Docker, Nginx
+- ⚙️ Backend work: REST APIs, FastAPI, PostgreSQL, Docker, Linux
 - 🏅 Bronze at the International Eurasian Olympiad in Informatics and at the Kazakhstan National Olympiad in Informatics
 - 🗣️ Kazakh and Russian (native), English (B2)
 
@@ -42,8 +42,8 @@ I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go, Pytho
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go%2Cpy%2Cts%2Cjs%2Ccpp%2Cnodejs%2Creact%2Cfastapi%2Cpostgres%2Cdocker%2Cnginx%2Clinux%2Cbash%2Cgit%2Cgithubactions&theme=dark&perline=15">
-    <img src="https://skillicons.dev/icons?i=go%2Cpy%2Cts%2Cjs%2Ccpp%2Cnodejs%2Creact%2Cfastapi%2Cpostgres%2Cdocker%2Cnginx%2Clinux%2Cbash%2Cgit%2Cgithubactions&theme=light&perline=15" width="100%" alt="Go, Python, TypeScript, JavaScript, C++, Node.js, React, FastAPI, PostgreSQL, Docker, Nginx, Linux, Bash, Git, GitHub Actions">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go%2Cpy%2Cfastapi%2Cpostgres%2Cdocker%2Clinux%2Cgit%2Ccpp&theme=dark&perline=8">
+    <img src="https://skillicons.dev/icons?i=go%2Cpy%2Cfastapi%2Cpostgres%2Cdocker%2Clinux%2Cgit%2Ccpp&theme=light&perline=8" width="460" alt="Go, Python, FastAPI, PostgreSQL, Docker, Linux, Git, C++">
   </picture>
 </p>
 

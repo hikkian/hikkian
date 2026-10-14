@@ -177,7 +177,7 @@ def header(theme):
         INTER8.path("Alisher Sharipov", tx, 172, name_size, t["ink"]),
         INTER6.path("AI / Full Stack developer", tx, 220, sub_size, t["sub"]),
         "</g>",
-        typing(["building open-source projects", "local LLMs on consumer GPUs", "orchestrating AI agent sessions", "Go · Python · TypeScript"],
+        typing(["building open-source projects", "local LLMs on consumer GPUs", "orchestrating AI agent sessions", "Go · Python · C++"],
                tx + 2, 268, mono_size, t),
     ]
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Alisher Sharipov — AI / Full Stack developer">'
