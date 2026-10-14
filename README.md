@@ -17,11 +17,11 @@
 
 I'm a full stack engineer from Astana, Kazakhstan, working mostly in **Go and Python**. Lately I build tools for running AI locally and for working with several AI agents at once.
 
-- 🖥️ **[Shura](https://github.com/hikkian/shura)**: a 35B coding model on one 12 GB gaming GPU, fully offline, tuned so the desktop stays smooth
-- 📮 **[Barid](https://github.com/hikkian/barid)**: a relay board that keeps several AI agent sessions in order, released as 1.0
-- ⚙️ Backend work: REST APIs, FastAPI, PostgreSQL, Docker, Linux
-- 🏅 Bronze at the International Eurasian Olympiad in Informatics and at the Kazakhstan National Olympiad in Informatics
-- 🗣️ Kazakh and Russian (native), English (B2)
+**Building** · [Shura](https://github.com/hikkian/shura): a 35B coding model on one 12 GB gaming GPU, fully offline, tuned so the desktop stays smooth<br>
+**Shipped** · [Barid](https://github.com/hikkian/barid): a relay board that keeps several AI agent sessions in order, now at 1.0<br>
+**Backend** · REST APIs, FastAPI, PostgreSQL, Docker, Linux<br>
+**Awards** · Bronze at the International Eurasian Olympiad in Informatics and at the Kazakhstan National Olympiad in Informatics<br>
+**Languages** · Kazakh and Russian (native), English (B2)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hikkian/hikkian/output/title-projects-dark.svg">
