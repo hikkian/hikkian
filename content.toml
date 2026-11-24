@@ -20,8 +20,8 @@ file = "shura"
 mark = "S"
 title = "Shura"
 status = "pre-1.0 · MIT"
-text = "Fully local AI coding workstation: a 35B MoE model at 200k context on a single 12 GB GPU, without slowing your desktop."
-tags = ["llama.cpp", "MoE expert cache", "VRAM valve"]
+text = "Fully local AI coding agent for a regular gaming PC: own inference engine, MoE expert cache, and a desktop that stays yours."
+tags = ["own engine", "MoE expert cache", "PC split"]
 footer = "Python · Shell"
 
 [[cards]]
@@ -46,7 +46,7 @@ footer = "Python · TypeScript"
 [now]
 title = "Right now"
 items = [
-  { head = "Shura", text = "taking it to 1.0, next stop: AMD Radeon via Vulkan" },
+  { head = "Shura", text = "moving to Inkling 2 Mini with own GPU kernels" },
   { head = "Barid", text = "1.0 is out; small releases from user feedback" },
   { head = "Based in", text = "Astana, Kazakhstan (UTC+5)" },
 ]
